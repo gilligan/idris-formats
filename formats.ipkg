@@ -1,0 +1,13 @@
+package formats
+
+-- Binary format specifications a la Oury and Swierstra
+-- by David Raymond Christiansen
+
+opts = ""
+sourcedir = src
+modules = Formats, Formats.Descriptions, Formats.PPM, Formats.ReadWrite
+makefile = Makefile
+executable = rotate
+main = Formats.PPM
+objs = bytes.o, bytes.h
+
